@@ -1,6 +1,6 @@
 package mod12
 
-//metodo per effetturare la sommatoria tra due estremi a,b.
+//metodo per effettuare la sommatoria tra due estremi a,b.
 object Sommatoria extends App {
   def sumInt(a: Int, b: Int): Int={
     if(a>b) 0 else a + sumInt(a+1, b)
