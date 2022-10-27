@@ -14,4 +14,4 @@ object Sommatoria extends App {
 //-(1>3) FALSE --> return 1 + sumInt(2,3)
 //    -return 1 + 2 + sumInt(3,3)
 //        - return1 + 2 + 3 + sumInt(4,3)
-//            (4>3) VERO return 1 + 2 + 3 = 6
+//            -(4>3) VERO return 1 + 2 + 3 = 6
