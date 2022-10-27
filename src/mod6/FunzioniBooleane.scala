@@ -31,8 +31,8 @@ object FunzioniBooleane {
     if(x) true else y //se x è falsa ritorna y, in quanto il valore dell'espressione dipenderà esclusivamente da quest'ultima
   }
 
-  def or(x: Boolean, y: Boolean): Boolean={
-    if(x) if(y) false else true //se x ed y sono uguali ritorna falso. Se sono diversi ritorna vero
+  def xor(x: Boolean, y: Boolean): Boolean={
+    if (x) if(y) false else true else y //se x ed y sono uguali ritorna falso. Se sono diversi ritorna vero
   }
 
 }
