@@ -12,6 +12,6 @@ object SumTailRecursive {
     }
 
     iter(a,0)
-    
+
   }
 }
