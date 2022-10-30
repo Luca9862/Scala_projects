@@ -9,4 +9,13 @@ object sumCurrying {
       if (a > b) 0 else f(a) + sumF(a + 1, b)
     sumF
   }
+
+  //riscriviamo le funzioni viste precedentemente con questa nuova versione di sum
+  //
+  def fact(x: Int): Int = if(x==0) 1 else x * fact(x-1)
+
+  def sumInts = sum(x => x) // sumInts: (Int, Int) => Int
+  def sumSquares = sum(x => x * x) // sumSquares: (Int, Int) => Int
+  def sumFactorials = sum(fact) // sumFactorials: (Int, Int) => Int
+  //
 }
