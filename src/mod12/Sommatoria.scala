@@ -2,10 +2,10 @@ package mod12
 
 //metodo per effettuare la sommatoria tra due estremi a,b.
 object Sommatoria extends App {
+  def id(x: Int): Int = x
   def sumInt(a: Int, b: Int): Int={
-    if(a>b) 0 else a + sumInt(a+1, b)
+    if(a>b) 0 else id(a) + sumInt(a+1, b)
   }
-
   println(sumInt(1,3))
 }
 
@@ -13,5 +13,5 @@ object Sommatoria extends App {
 //
 //-(1>3) FALSE --> return 1 + sumInt(2,3)
 //    -return 1 + 2 + sumInt(3,3)
-//        - return1 + 2 + 3 + sumInt(4,3)
+//        - return 1 + 2 + 3 + sumInt(4,3)
 //            -(4>3) VERO return 1 + 2 + 3 = 6
