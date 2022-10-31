@@ -1,4 +1,4 @@
-package mod13
+package mod12
 
 object FunzioniListeArgomentiMultiple {
   def sum(f: Int => Int)(a: Int, b: Int): Int =

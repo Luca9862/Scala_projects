@@ -1,4 +1,4 @@
-package mod11
+package mod10
 
 //una funzione è detta tail-recursive se e solo se l'ultima operazione che essa svolge è una chiamata ricorsiva
 object TailRecursion {

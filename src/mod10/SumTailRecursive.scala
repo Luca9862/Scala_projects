@@ -1,4 +1,4 @@
-package mod11
+package mod10
 
 import scala.annotation.tailrec
 

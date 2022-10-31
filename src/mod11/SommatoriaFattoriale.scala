@@ -1,4 +1,4 @@
-package mod12
+package mod11
 
 object SommatoriaFattoriale {
   def fact(x: Int): Int = if(x==0) 1 else x * fact(x-1)

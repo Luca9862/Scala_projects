@@ -1,4 +1,4 @@
-package mod12
+package mod11
 
 object LambdaFunction {
 

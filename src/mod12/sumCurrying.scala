@@ -1,4 +1,4 @@
-package mod13
+package mod12
 
 //definizione della funzione sum vista nel modulo 12
 //la differenza è che vogliamo una funzione che non riceva come argomento i due estremi: a,b.

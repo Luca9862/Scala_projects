@@ -1,4 +1,4 @@
-package mod12
+package mod11
 
 //metodo per effettuare la sommatoria tra due estremi a,b.
 object Sommatoria extends App {

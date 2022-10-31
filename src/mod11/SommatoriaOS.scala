@@ -1,4 +1,4 @@
-package mod12
+package mod11
 
 
 //definizione della funzione Sommatoria di ordine superiore e riscrittura delle funzioni precedenti

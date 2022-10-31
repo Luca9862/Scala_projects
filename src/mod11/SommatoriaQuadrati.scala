@@ -1,4 +1,4 @@
-package mod12
+package mod11
 
 //metodo per calcolare la sommatoria dei quadrati compresi tra [a,b]
 

@@ -1,4 +1,4 @@
-package mod13
+package mod12
 
 //Scrivete una funzione product che presa come argomento una funzione f e
 //due interi a e b calcoli il prodotto dei valori f(n) per n compreso fra a e b.
@@ -9,5 +9,7 @@ package mod13
 //(cio`e tale che queste funzioni siano riscrivibili come applicazioni di gen).
 
 object EsercizioProduct {
+  def product(): Unit ={
 
+  }
 }
