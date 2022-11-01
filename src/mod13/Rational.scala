@@ -22,5 +22,4 @@ class Rational(x: Int, y: Int) {
 
   def add(that: Rational): Rational =
     new Rational(this.num * that.den + that.num * this.den, this.den * that.den)
-
 }
